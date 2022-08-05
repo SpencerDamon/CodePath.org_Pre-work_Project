@@ -2,4 +2,5 @@
     <string name="app_name">HelloWorld</string>
     <string name="tv_spencer_intro">Hello World! My name is Spencer and I love Android development and Kotlin!</string>
     <string name="bv_intro_text">Say Hello!</string>
+    <string name="kotlin_mascot">Kotlin Mascot</string>
 </resources>
