@@ -14,7 +14,6 @@ class MainActivity : AppCompatActivity() {
         button.setOnClickListener {
             Log.v("Hello world", "Button clicked!")
             Toast.makeText(this, "Hello to you too!", Toast.LENGTH_SHORT).show()
-
         }
     }
 }

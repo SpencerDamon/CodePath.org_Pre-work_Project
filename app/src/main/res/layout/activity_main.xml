@@ -10,32 +10,32 @@
         android:id="@+id/textViewIntro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
+        android:layout_marginHorizontal="@dimen/tv_margin_horizontal"
+        android:layout_marginTop="@dimen/tv_margin_top"
+        android:text="@string/tv_spencer_intro"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="@color/purple_700"
-        android:layout_marginHorizontal="16dp"
-        android:text="@string/tv_spencer_intro"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageViewKotlinMascot" />
 
     <ImageView
         android:id="@+id/imageViewKotlinMascot"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:layout_marginTop="48dp"
+        android:layout_width="@dimen/iv_width"
+        android:layout_height="@dimen/iv_height"
+        android:layout_marginTop="@dimen/iv_margin_top"
+        android:contentDescription="@string/kotlin_mascot"
         android:scaleType="centerInside"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/kotlin_mascot_3d_5"
-        android:contentDescription="@string/kotlin_mascot" />
+        app:srcCompat="@drawable/kotlin_mascot_3d_5" />
 
     <Button
         android:id="@+id/button_intro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/bv_intro_text"
+        android:text="@string/btn_intro_text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
