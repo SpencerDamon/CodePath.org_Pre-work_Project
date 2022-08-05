@@ -13,7 +13,7 @@
         android:layout_marginHorizontal="@dimen/tv_margin_horizontal"
         android:layout_marginTop="@dimen/tv_margin_top"
         android:text="@string/tv_spencer_intro"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@color/purple_700"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
